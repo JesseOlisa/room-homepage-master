@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="./JavaScript/nav.js" defer></script>
+  <script src="./JavaScript/slider.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="preload">
+  <a href="#btn" class="skip-to-button">Skip to buttons</a>
+  <header class="nav-container">
+    <div class="hamburger">
+      <img src="./images/icon-hamburger.svg" alt="hamburger">
+    </div>
+    <img src="./images/logo.svg" alt="company logo" class="logo">
+    <div class="nav-links-container">
+      
+      <ul class="nav-links">
+        <li><img src="./images/icon-close.svg" alt="close icon" class="close-btn"></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contract">Contact</a></li>
+      </ul>
+    </div>   
+    
+  </header>
+  
+  <main class="grid-container">
+    <div class="image-bg-container">
+      <div class="overflow">
+        <div class="slider-control">
+          <div class="image-bg image-1 current-bg"></div>
+          <div class="image-bg image-2 animated"></div>
+        <div class="image-bg image-3 animated"></div>
+        </div>
+      </div>
+      
+       
+      <!--SLIDE BUTTONS-->
+      <div class="btn-container">
+        <button type="button" class="carousel carousel-left" id="btn">
+          <img src="./images/icon-angle-left.svg" alt="move left">
+        </button>
+        <button type="button" class="carousel carousel-right carousel-hover">
+          <img src="./images/icon-angle-right.svg" alt="move right">
+        </button>
+      </div> 
+    </div>
+
+    <div class="intro-info-container">
+      <div class="text-control">
+        <article class="intro-info current-text">
+          <h1 class="info-title">Discover innovative ways to decorate</h1>
+          <p>  We provide unmatched quality, comfort, and style for property owners across the country. 
+            Our experts combine form and function in bringing your vision to life. Create a room in your 
+            own style with our collection and make your property a reflection of you and what you love.</p>
+            <a href="#shop">
+              <p>Show now</p>
+              <img src="./images/icon-arrow.svg" alt="arrow">
+            </a>
+        </article>
+        <article class="intro-info animated">
+          <h1 class="info-title">We are available all across the globe</h1>
+          <p>With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+            Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+            store locator. Any questions? Don't hesitate to contact us today.</p>
+            <a href="#shop">
+              <p>Show now</p>
+              <img src="./images/icon-arrow.svg" alt="arrow">
+            </a>
+        </article>
+        <article class="intro-info animated">
+          <h1 class="info-title">Manufactured with the best materials</h1>
+          <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+            to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+            experience in this industry, we understand what customers want for their home and office.</p>
+            <a href="#shop">
+              <p>Show now</p>
+              <img src="./images/icon-arrow.svg" alt="arrow">
+            </a>
+        </article>
+        
+      </div>
+      
+     
+    </div>
+    
+    <div class="image-dark-container">
+      <img src="./images/image-about-dark.jpg" alt="furniture in dark">
+    </div>
+
+    <div class="about">
+      <h3> About our furniture</h3>
+      <p>Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.</p>
+    </div>
+
+    <div class="image-light-container">
+      <img src="./images/image-about-light.jpg" alt="furniture in light">
+    </div>
+    
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
